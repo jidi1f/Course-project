@@ -1,0 +1,24 @@
+{
+  "name": "forVebCourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./script/startServer.jss",
+  "scripts": {
+    "dev": "nodemon script/startServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "hapi": "^18.1.0",
+    "nodemon": "^2.0.6",
+    "inert": "^5.1.3",
+    "boom": "^7.3.0",
+    "vision": "^5.4.4",
+    "sequelize": "^6.3.5"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "pg": "^8.5.1"
+  }
+}
